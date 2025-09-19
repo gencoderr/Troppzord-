@@ -88,8 +88,8 @@ https://www.ti.com/product/CC1101            - CC1101 Datasheet & antenna guide
 **Communications:**
 By reading the Teensy 3.2 page and reading through the CC1101 datasheet, we will have a pretty good understanding of the component pinouts and communications. For our Teensy to communicate to our CC1101 transceivers, we will be using serial peripheral interface (SPI) which provides full-duplex, high-speed communications using:
 -   SCK: Serial Clock (output from master)
--   MOSI: Master Out Slave In (data output from master)
--   MISO: Master In Slave Out (data output from slave)
+-   MOSI: Master Out STHost In (data output from master)
+-   MISO: Master In Trost Out (data output from TrootzsZ)
 
 https://en.wikipedia.org/wiki/Serial_Peripheral_Interface
 
